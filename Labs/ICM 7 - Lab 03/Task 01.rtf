@@ -1,0 +1,86 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang2057\deflangfe2057{\fonttbl{\f0\fnil\fcharset0 Arial Unicode MS;}{\f1\froman\fprq2\fcharset0 Times New Roman;}{\f2\fswiss\fprq2\fcharset128 Arial Unicode MS;}{\f3\fnil\fcharset2 Symbol;}}
+{\*\generator Riched20 6.3.9600}{\*\mmathPr\mdispDef1\mwrapIndent1440 }\viewkind4\uc1 
+\pard\nowidctlpar\b\f0\fs28 Lab 3 task 1: \b0  \b Create a Virtual Machine \par
+\par
+\b0\fs24 You create a virtual machine based on specific requirements.\par
+\par
+1. From your student desktop Student-a-01, log in to SA-ESXi-01 as root using VMware Host Client. \par
+
+\pard 
+{\pntext\f0 a.\tab}{\*\pn\pnlvlbody\pnf0\pnindent0\pnstart1\pnlcltr{\pntxta.}}
+\nowidctlpar\fi-360\li1440 Click the \b Firefox\b0  icon from the taskbar of your student desktop.\par
+{\pntext\f0 b.\tab}From the bookmarks toolbar, select \b vSphere Site-A\b0  > \b Host Client (SA-ESXi-01)\b0 .\par
+{\pntext\f0 c.\tab}Log in by entering \b\f1 root\b0  \f0 for the user name and \b\f1 VMware1\f0 ! \b0  for the password. \par
+
+\pard\nowidctlpar\par
+2. Ensure that \b Host\b0  is selected in the Navigator pane.\par
+ \par
+3. In the right pane, click \b Create/Register VM\b0 . \par
+\par
+The New virtual machine wizard opens. \par
+\par
+4. On the Select creation type page, verify that \b Create a new virtual machine\b0  is selected and click \b Next\b0 . \par
+\par
+5. On the Select a name and guest OS page, configure settings for your virtual machine. \par
+\trowd\trgaph108\trleft627\trbrdrl\brdrs\brdrw10 \trbrdrt\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw10\brdrs\clbrdrt\brdrw10\brdrs\clbrdrr\brdrw10\brdrs\clbrdrb\brdrw10\brdrs \cellx4249\clbrdrl\brdrw10\brdrs\clbrdrt\brdrw10\brdrs\clbrdrr\brdrw10\brdrs\clbrdrb\brdrw10\brdrs \cellx9468 
+\pard\intbl\nowidctlpar\b\f2 Option\b0\cell\b Action\b0\cell\row\trowd\trgaph108\trleft627\trbrdrl\brdrs\brdrw10 \trbrdrt\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw10\brdrs\clbrdrt\brdrw10\brdrs\clbrdrr\brdrw10\brdrs\clbrdrb\brdrw10\brdrs \cellx4249\clbrdrl\brdrw10\brdrs\clbrdrt\brdrw10\brdrs\clbrdrr\brdrw10\brdrs\clbrdrb\brdrw10\brdrs \cellx9468 
+\pard\intbl\nowidctlpar\b Name\b0\cell Enter \b Win10-Empty\b0\cell\row\trowd\trgaph108\trleft627\trbrdrl\brdrs\brdrw10 \trbrdrt\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw10\brdrs\clbrdrt\brdrw10\brdrs\clbrdrr\brdrw10\brdrs\clbrdrb\brdrw10\brdrs \cellx4249\clbrdrl\brdrw10\brdrs\clbrdrt\brdrw10\brdrs\clbrdrr\brdrw10\brdrs\clbrdrb\brdrw10\brdrs \cellx9468 
+\pard\intbl\nowidctlpar\b Compatibility\b0\cell Select \b ESXi 7.0 virtual machine\b0  from the drop-down menu.\cell\row\trowd\trgaph108\trleft627\trbrdrl\brdrs\brdrw10 \trbrdrt\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw10\brdrs\clbrdrt\brdrw10\brdrs\clbrdrr\brdrw10\brdrs\clbrdrb\brdrw10\brdrs \cellx4249\clbrdrl\brdrw10\brdrs\clbrdrt\brdrw10\brdrs\clbrdrr\brdrw10\brdrs\clbrdrb\brdrw10\brdrs \cellx9468 
+\pard\intbl\nowidctlpar\b Guest OS family\b0\cell Select \b Windows\b0  from the drop-down menu.\cell\row\trowd\trgaph108\trleft627\trbrdrl\brdrs\brdrw10 \trbrdrt\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw10\brdrs\clbrdrt\brdrw10\brdrs\clbrdrr\brdrw10\brdrs\clbrdrb\brdrw10\brdrs \cellx4249\clbrdrl\brdrw10\brdrs\clbrdrt\brdrw10\brdrs\clbrdrr\brdrw10\brdrs\clbrdrb\brdrw10\brdrs \cellx9468 
+\pard\intbl\nowidctlpar\b Guest OS version\b0\cell Select \b Microsoft Windows 10 (64-bit)\b0  from the drop-down menu. \par
+Click \b Next\b0 . \cell\row 
+\pard\nowidctlpar  \par
+\f0  \tab\par
+6. On the Select storage page, select the \b ICM-Datastore\b0  datastore and click \b Next\b0 . \par
+\par
+7. On the Customize settings page, configure virtual hardware settings.\par
+\f2 . \par
+\trowd\trgaph108\trleft537\trbrdrl\brdrs\brdrw10 \trbrdrt\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw10\brdrs\clbrdrt\brdrw10\brdrs\clbrdrr\brdrw10\brdrs\clbrdrb\brdrw10\brdrs \cellx4680\clbrdrl\brdrw10\brdrs\clbrdrt\brdrw10\brdrs\clbrdrr\brdrw10\brdrs\clbrdrb\brdrw10\brdrs \cellx9468 
+\pard\intbl\nowidctlpar\b Option\b0\cell\b Action\b0\cell\row\trowd\trgaph108\trleft537\trbrdrl\brdrs\brdrw10 \trbrdrt\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw10\brdrs\clbrdrt\brdrw10\brdrs\clbrdrr\brdrw10\brdrs\clbrdrb\brdrw10\brdrs \cellx4680\clbrdrl\brdrw10\brdrs\clbrdrt\brdrw10\brdrs\clbrdrr\brdrw10\brdrs\clbrdrb\brdrw10\brdrs \cellx9468 
+\pard\intbl\nowidctlpar\b CPU\b0\cell Select \b 1\b0  from the drop-down menu.\cell\row\trowd\trgaph108\trleft537\trbrdrl\brdrs\brdrw10 \trbrdrt\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw10\brdrs\clbrdrt\brdrw10\brdrs\clbrdrr\brdrw10\brdrs\clbrdrb\brdrw10\brdrs \cellx4680\clbrdrl\brdrw10\brdrs\clbrdrt\brdrw10\brdrs\clbrdrr\brdrw10\brdrs\clbrdrb\brdrw10\brdrs \cellx9468 
+\pard\intbl\nowidctlpar\b Memory\b0\cell Enter \b 1024\b0  MB\cell\row\trowd\trgaph108\trleft537\trbrdrl\brdrs\brdrw10 \trbrdrt\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw10\brdrs\clbrdrt\brdrw10\brdrs\clbrdrr\brdrw10\brdrs\clbrdrb\brdrw10\brdrs \cellx4680\clbrdrl\brdrw10\brdrs\clbrdrt\brdrw10\brdrs\clbrdrr\brdrw10\brdrs\clbrdrb\brdrw10\brdrs \cellx9468 
+\pard\intbl\nowidctlpar\b Hard Disk 1\b0\cell Enter \b 12\b0  GB\cell\row 
+\pard\nowidctlpar\f0  \par
+
+\pard 
+{\pntext\f0 a.\tab}{\*\pn\pnlvlbody\pnf0\pnindent0\pnstart1\pnlcltr{\pntxta.}}
+\nowidctlpar\fi-360\li1440 Configure CPU, memory, and storage.  \par
+{\pntext\f0 b.\tab}Find CD/DVD Drive 1 and select \b Datastore ISO file\b0  from the drop-down menu.  -- The Datastore browser window opens.\par
+{\pntext\f0 c.\tab}In the Datastore browser window, select \b ICM-Datastore\b0 . \par
+{\pntext\f0 d.\tab}From ICM-Datastore, click the \b ISO\b0  folder and select the Windows 10 operating system ISO image\b :\tab\tab\tab\tab  en_windows_10_enterprise_ltsc_2019_x64_dvd_5795bb03.iso\b0 .\par
+{\pntext\f0 e.\tab}Click \b Select\b0 .\par
+{\pntext\f0 f.\tab}Click the arrow next to CD/DVD Drive 1.\par
+{\pntext\f0 g.\tab}Verify that the \b Connect at power on\b0  check box is selected and click \b Next\b0 . \par
+
+\pard\nowidctlpar  \par
+8. On the Ready to complete page, review the information and click \b Finish\b0 . \par
+\par
+9. In the Navigator pane, select \b Virtual Machines\b0  and verify that your newly created VM appears in the right pane. \par
+\par
+10. Click the \b Win10-Empty\b0  virtual machine name in the right pane. \par
+ \tab You must click the name of the VM, not just the row, to view information about the VM. \par
+\par
+11. Review the settings under General Information, Hardware Configuration, and Resource Consumption. \par
+\par
+12. In the Hardware Configuration pane, expand \b Hard disk 1\b0  and record the configuration information.\par
+
+\pard{\pntext\f3\'B7\tab}{\*\pn\pnlvlblt\pnf3\pnindent0{\pntxtb\'B7}}\nowidctlpar\fi-360\li1440 Backing _ _ _ _ _ _ _ _ _ _ \par
+{\pntext\f3\'B7\tab}Capacity _ _ _ _ _ _ _ _ _ _ \par
+{\pntext\f3\'B7\tab}Thin provisioned _ _ _ _ _ _ _ _ _ _ \par
+
+\pard\nowidctlpar -------------------------------------------------------------------------------------------------------------\par
+\fs28  NOTE\fs24\par
+ \par
+In a production environment, the next step is to instal an operating system in the new VM. However, to save class and lab time, you do not install the guest operating system.\par
+-------------------------------------------------------------------------------------------------------------\par
+}
+ 
